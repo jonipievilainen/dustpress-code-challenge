@@ -1,4 +1,9 @@
-    </div>{! .main-container !}
+</main>{! .main-container !}
     {@wpfooter /}
+    <footer class="text-muted">
+        <div class="container">
+            <p>Where can you find me? <a href="https://fi.linkedin.com/in/joni-pievil%C3%A4inen-93b534107">LinkedIn</a> or <a href="https://github.com/jonipievilainen">GitHub</a>.</p>
+        </div>
+    </footer>
 </body>
 </html>

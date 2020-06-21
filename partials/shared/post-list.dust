@@ -1,3 +1,5 @@
 {#posts}
-    {>"shared/post-list-item"/}
+    <div>
+        {>"shared/post-list-item"/}
+    </div>
 {/posts}

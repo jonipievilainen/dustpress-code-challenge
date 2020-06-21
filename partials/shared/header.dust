@@ -12,15 +12,10 @@
 
 <body class="{#WP.body_class}{.}{@sep} {/sep}{/WP.body_class}">
 
-<div class="top-bar">
-    <div class="top-bar-left">
-        <ul class="menu">
-            <li class="menu-text"><a href="{WP.url}">{WP.name}</a></li>
-        </ul>
-    </div>
-    <div class="top-bar-right">
-        {@menu menu_name="primary_navigation" ul_id="primary-menu" ul_classes="menu primary-menu" show_submenu=false /}
-    </div>
-</div>
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            {@menu menu_name="primary_navigation" ul_id="primary-menu" ul_classes="navbar-nav mr-auto" show_submenu=false /}
+        </div>
+    </nav> -->
 
-<div class="main-container">
+    <main role="main" class="main-container cover-container d-flex h-100 p-3 mx-auto flex-column inner cover">

@@ -1,0 +1,26 @@
+{>"shared/header" /}
+
+{#PageEvents}
+
+    <div class="main-content events" id="main-content">
+        <div class="row">
+            <div class="col-12">
+                <button id="load-all-events" class="btn btn-primary" disabled>All events</button>
+                <button id="load-upcoming-events" class="btn btn-primary">Upcoming events</button>
+            </div>
+            <div class="col-12 all-events-list-area">
+                {#All}
+                    {>"shared/post-list"/}
+                {/All}
+            </div>
+            <div class="col-12 upcoming-events-list-area hide">
+                {#Upcoming}
+                    {>"shared/post-list"/}
+                {/Upcoming}
+            </div>
+        </div>
+    </div>
+
+{/PageEvents}
+
+{>"shared/footer" /}

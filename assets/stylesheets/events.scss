@@ -1,0 +1,36 @@
+.main-content.single-event, .events {
+    background-color: #feffda;
+
+    .post-list-item {
+        margin-bottom: 1em;
+    }
+
+    .event-title-area {
+        background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+        padding: 1em;
+
+        .date {
+            background-color: #45d180;
+            display: inline-block;
+            padding: .5em;
+            font-weight: 700;
+        }
+
+        .date.passed {
+            background-color: #ff5a5a;
+        }
+    }
+
+    .event-content-area {
+        padding: 3em;
+
+        #back {
+            color: #0d6efd;
+            text-decoration: underline;
+        }
+    }
+
+    button {
+        margin: 1em 0 1em 1em;
+    }
+}

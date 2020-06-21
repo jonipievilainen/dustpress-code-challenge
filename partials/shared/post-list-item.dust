@@ -1,3 +1,13 @@
-<div class="post-list-item">
-    {post_title}
-</div>
+<a href="{permalink}">
+    <div class="post-list-item">
+        <div class="event-title-area">
+            {@eq key=is_passed value=1}
+                <p class="date passed">{start_date} - {end_date}</p>
+            {:else}
+                <p class="date">{start_date} - {end_date}</p>
+            {/eq}
+            <h1>{post_title}</h1>
+            <p>{post_excerpt}</p>
+        </div>
+    </div>
+</a>
