@@ -17,7 +17,8 @@ class PageEvents extends EventsModel {
      * @var array
      */
     protected $api = [
-        'Query'
+        'All',
+        'Upcoming'
     ];
 
     /**
