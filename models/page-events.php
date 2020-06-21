@@ -26,15 +26,15 @@ class PageEvents extends EventsModel {
      * @return array|bool|WP_Query
      */
     public function All() {
-        return $this->get_all_events( 'start_date', 'DESC', true );
+        return $this->get_all_events( 'start_date', 'DESC', false );
     }
-
+    
     /**
      * Upcoming events posts for the Events page.
      *
      * @return array|bool|WP_Query
      */
     public function Upcoming() {
-        return $this->get_all_events( 'start_date', 'DESC', false );
+        return $this->get_all_events( 'start_date', 'ASC', true );
     }
 }
