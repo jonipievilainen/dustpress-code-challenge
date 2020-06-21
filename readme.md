@@ -2,6 +2,9 @@
 
 Create events calendar
 
+# Notice
+Use "composer install" before theme activation
+
 # Screenshots
 
 Events view
